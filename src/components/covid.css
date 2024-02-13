@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #211951;
+}
+.container{
+    top: 30%;
+    position: absolute;
+    height: 120%;
+    width: 90%;
+    left: 4.8%;
+}
+.card{
+    position: absolute;
+    height: 45%;
+    width: 26.66%;
+    border-radius: 7%;
+    background-color: #F0F3FF;
+    text-align: center;
+    overflow: auto;
+}
+.heading{
+    font-size: 400%;
+    font-family: "Protest Guerrilla", sans-serif;
+    color: #836FFF;
+}
+.subHeading{
+    font-size: 300%;
+    font-family: 'Oswald';
+    color: #15F5BA;
+    top: 40%;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card2{
+    left: 36%;
+}
+.card3{
+    left: 73.22%;
+}
+.card4{
+    top:55%
+}
+.card5{
+    top:55%;
+    left: 36%;
+}
+.card6{
+    top:55%;
+    left: 73.22%;
+}
+.Head{
+    color: #F0F3FF;
+    position: absolute;
+    font-family: "Protest Strike";
+    left:46%;
+}
+.st{
+    font-size: 150%;
+}
+@media only screen and (max-width: 768px) {
+    .body{
+        /* overflow-x: hidden; */
+    }
+    .card{ 
+        left: 0;   
+        top: 0;   
+        position: relative;
+        width: 80%;
+        word-wrap: break-word;
+        margin-top: 15%;
+    }
+}
